@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(107, 107, 107);
+    background-image: url("../img/Background.JPG") ;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    font-size: 1rem;
+   }
+
+header, footer{
+    background-color:rgba(0, 0, 0, 0.8);
+    color: white;
+    height: fit-content;
+}
+
+.headertitle{
+    font-size: 2em;
+    margin:0;
+}
+
+/*
+ * Handle the displays of the led
+ */
+.status {
+    display: flex;
+    margin-top: 10px;
+}
+
+.led-green {
+    width: 12px;
+    height: 12px;
+    margin-top: 8px;
+    margin-left: 10px;
+    background-color: #ABFF00;
+    border-radius: 50%;
+    box-shadow:  #89FF00 0 0px 10px, inset #304701 0 0px 3px;
+}
+
+.led-red {
+    width: 12px;
+    height: 12px;
+    margin-top: 8px;
+    margin-left: 10px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    box-shadow:  #ce0000 0 0px 10px, inset #470101 0 0px 3px;
+}
+/*************************************************************************/
+
+#maintitle{
+    display: inline-block;
+    color: white;
+    font-family: Apple Chancery, cursive;
+    width: fit-content;
+    padding: 0% 15% 0% 15%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 10px outset rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+.defaultcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+a.invilink, a.invilink :hover{
+    text-decoration: none;
+    color: inherit;
+}

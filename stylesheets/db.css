@@ -1,0 +1,75 @@
+main {
+    margin-top: 2% ;
+    text-align: center;
+}
+
+/*
+ * List of links to the databases
+ */
+.listctnr{
+    margin-top: 1%;
+    padding-right: 20px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    list-style-position: outside;
+}
+
+.listctnr > h3{
+    font-size: 1.5vw;
+}
+
+.dblist :first-child{
+    list-style-type: lower-greek;
+}
+
+.dblist :nth-child(2){
+    list-style-type: upper-roman;
+}
+
+.dblist :nth-child(3){
+    list-style-type: square;
+}
+.databaseslinks{
+    height: 5vw; 
+    width: 5vw;
+}
+/*************************************************************************/
+
+#dbtitle{
+    color: white;
+}
+
+/*
+ * Table holding the data from the select
+ */
+#dbtable{
+    overflow-x: auto;
+    display: flex;
+}
+
+#dbtable th,td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+#dbtable th{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#dbtable tr{
+    background-color: rgba(17, 17, 17, 0.829);
+}
+
+#dbtable tr:nth-child(even){
+    background-color: rgb(54, 54, 54);
+}
+
+#dbtable td{
+    color: white;
+}
+/*************************************************************************/
